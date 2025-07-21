@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 html, body {
   display: flex;
   width: 100%;
@@ -7,6 +9,7 @@ html, body {
   background: #e0e0e0;
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card {
@@ -51,13 +54,11 @@ html, body {
 }
 
 .poppins-semibold {
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 
 .poppins-regular {
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
