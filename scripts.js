@@ -54,6 +54,7 @@ function displayQuestion(){
     falseButton.className = "button poppins-regular";
     answerContainer.appendChild(falseButton);
   }
+  document.getElementById("question-number").innerHTML = `${currentQuestionIndex + 1}/${questions.length}`;
 }
 
 function displayScore() {
